@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="css/cadastro aluno.css">
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form action="processar_cadastro.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="confirmemail">Confirmar E-mail:</label>
+        <input type="email" id="confirmemail" name="confirmemail" required><br><br>
+
+        
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <label for="confirmarsenha">Confirmar Senha:</label>
+        <input type="password" id="confirmarsenha" name="confirmarsenha" required><br><br>
+       
+       <!-- Adicione isto no final do formulário de inscrição do aluno -->
+    
+       
+        <input type="submit" value="Cadastrar">
+    </form>
+    <script src="validarUsuarios.js"></script>
+
+
+
+
+</body>
+</html>

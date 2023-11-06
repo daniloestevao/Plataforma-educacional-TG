@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro cursos.css">
+    <title>Cadastro de Cursos</title>
+</head>
+<body>
+
+    <form action="/cadastrar_curso" method="post" onsubmit="gerarNumeroSerie()">
+        <!-- Campo para o nome do curso -->
+        <label for="cursos">Cursos:</label>
+        <input type="text" id="cursos" name="cursos" required><br><br>
+
+        <!-- Campo para a descrição do curso -->
+        <label for="descricao">Descrição do Curso:</label>
+        <textarea id="descricao" name="descricao" rows="4" required></textarea><br><br>
+
+        <!-- Campo para a duração do curso em horas -->
+        <label for="duracao">Duração (horas):</label>
+        <input type="number" id="duracao" name="duracao" required><br><br>
+
+        <!-- Campo para o número de aulas -->
+        <label for="num_aulas">Número de Aulas:</label>
+        <input type="number" id="num_aulas" name="num_aulas" required><br><br>
+
+        <!-- Campo para o link das aulas -->
+        <label for="link_aulas">Link das Aulas:</label>
+        <input type="url" id="link_aulas" name="link_aulas" required><br><br>
+
+        <!-- Botão de envio do formulário -->
+        <input type="submit" value="Cadastrar">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+/* Estilos para a página de escolha de cursos */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('lista\ de\ cursos.jpeg'); /* Substitua 'sua-imagem-de-fundo.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.9em;
+}
+
+#listaCursos {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.0em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+/* Estilos para realçar o item selecionado */
+li.selected {
+    background-color: #3498db;
+    color: #fff;
+}

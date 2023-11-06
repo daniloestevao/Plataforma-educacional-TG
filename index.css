@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('home.jpeg');
+    background-attachment: fixed;
+    background-size: cover; /* Para cobrir toda a tela */
+    background-position: center; /* Centralizar a imagem */
+}
+
+    
+
+
+
+/* Estilos para o cabeçalho */
+header {
+    background: rgba(2, 0, 8, 0.3); /* fundo com transparência */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header h2 {
+    font-size: 1.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+/* Estilos para os botões de atalho */
+.botoes-atalho {
+    text-align: center;
+    margin: auto; /* Centraliza horizontalmente */
+    flex: 1; /* Faz com que ocupe o espaço disponível verticalmente */
+}
+
+button {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para o conteúdo */
+#conteudo {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff(0, 0, 0, 0.2);
+}
+
+/* Estilos para o rodapé */
+footer {
+    background: rgba(2, 0, 8, 0.2); /* fundo com transparência */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+   
+
+button.btn-primary {
+    background-color: #007acc;
+    color: #fff;
+}
+
+button.btnEsqueceuSenha {
+    background-color: #007acc;
+    color: #fff;
+}
+
+/* Estilos para links */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    /* Estilos específicos para telas menores */
+}
+

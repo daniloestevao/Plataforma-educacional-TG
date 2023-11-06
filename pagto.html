@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pagto.css"> <!-- Inclua seu arquivo CSS para estilização -->
+    <title>Pagamento</title>
+</head>
+<body>
+    <h1>Area de Pagamento</h1>
+    <div class="payment-form">
+        <label for="payment-method">Formas de Pagamento:</label>
+        <select id="payment-method" name="payment-method" required>
+            <option value="credit-card">Cartão de Crédito</option>
+            <option value="boleto">Boleto Bancário</option>
+            <option value="pix">PIX</option>
+        </select>
+
+        <div class="credit-card-details">
+            <label for="card-number">Número do Cartão de Crédito:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="XXXX XXXX XXXX XXXX" required>
+
+            <label for="card-holder">Nome do Titular do Cartão:</label>
+            <input type="text" id="card-holder" name="card-holder" required>
+
+            <label for="expiry-date">Data de Validade:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="XXX" required>
+        </div>
+
+        <div class="boleto-details" style="display: none;">
+            <p>Um boleto será gerado após a confirmação do pagamento.</p>
+        </div>
+
+        <div class="pix-details" style="display: none;">
+            <p>Use a chave PIX a seguir para efetuar o pagamento:</p>
+            <p>Chave PIX: <span id="pix-key"></span></p>
+        </div>
+
+        <label for="amount">Valor Total:</label>
+        <input type="text" id="amount" name="amount" placeholder="R$ 0.00" required>
+
+        <button type="button" id="submit-payment">Pagar Agora</button>
+    </div>
+    <div class="payment-status" style="display: none;">
+        <h2>Confirmação de Pagamento</h2>
+        <p>O pagamento foi concluído com sucesso!</p>
+    </div>
+    <script src="your-script.js"></script> <!-- Inclua seu JavaScript para lidar com a funcionalidade de pagamento -->
+</body>
+</html>

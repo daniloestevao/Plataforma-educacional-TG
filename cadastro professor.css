@@ -1,0 +1,65 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: url('cadastro\ professores.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+/* Estilo para o cabeçalho (h1) */
+h1 {
+    background-color: #0509f5;
+    color: #fff;
+    padding: 20px;
+    margin-top: 0;
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo transparente (ajuste o valor alpha conforme necessário) */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px rgba(7, 7, 7, 0);
+    width: 400px;
+    margin: auto;
+}
+
+/* Estilo para os rótulos (labels) */
+label {
+    display: block;
+    margin-bottom: 5px 5px;
+}
+
+/* Estilo para os campos de entrada (inputs) */
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px 2px solid #ccc;
+    border-radius: 2px;
+    height: auto;
+}
+
+/* Estilo para o botão de enviar */
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Estilo para o botão de enviar quando o mouse estiver sobre ele */
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}

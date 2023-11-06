@@ -1,0 +1,52 @@
+/* Estilo para o corpo (body) */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('recuperacao\ de\ senha.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo de backup */
+}
+
+/* Estilo para o título (h1) */
+h1 {
+    text-align: center;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo com transparência para o h1 */
+    padding: 10px;
+}
+
+
+
+
+/* Estilo para as entradas (input) */
+
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+/* Estilo para o formulário (form) */
+#recovery-form {
+    max-width: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo com transparência para o formulário */
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Restante dos estilos permanece inalterado */
